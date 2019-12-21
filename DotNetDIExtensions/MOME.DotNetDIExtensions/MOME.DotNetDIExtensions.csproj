@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.1.0</Version>
+    <Authors>Mehdi Mohseni</Authors>
+    <Company>MOME</Company>
+    <Description>.Net core Dependency Injection helper</Description>
+    <Copyright></Copyright>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/MehdiMohseni82/MOME</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>.Net core, Dependency Injection,DI, Assembly loader</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
