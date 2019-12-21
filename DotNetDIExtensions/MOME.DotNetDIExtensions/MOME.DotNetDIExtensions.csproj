@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/MehdiMohseni82/MOME</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>.Net core, Dependency Injection,DI, Assembly loader</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/MehdiMohseni82/MOME/master/Resources/logo.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
