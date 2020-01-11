@@ -7,32 +7,22 @@
     <Version>0.1.0</Version>
     <Authors>Mehdi Mohseni</Authors>
     <Company>MOME</Company>
-    <Description>.Net core Dependency Injection helper</Description>
-    <Copyright></Copyright>
-    <PackageProjectUrl />
+    <Product>.Net Google Map Distance Matrix Helper</Product>
+    <Description>This package makes it possible to request GoogleMap Distance Matrix from a .Net (Both core and framework) application.</Description>
+    <Copyright>GNU</Copyright>
     <RepositoryUrl>https://github.com/MehdiMohseni82/MOME</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
-    <PackageTags>.Net core, Dependency Injection,DI, Assembly loader</PackageTags>
     <PackageIcon>logo.png</PackageIcon>
+    <PackageTags>.Net core, Google, Google Map, GoogleMap, DistanceMatrix, Api, Google Map SDK</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="images\" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="images\logo.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
+  
 </Project>
