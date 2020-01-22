@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Authors>Mehdi Mohseni</Authors>
     <Company>MOME</Company>
     <Description>.Net core Dependency Injection helper</Description>
@@ -15,6 +15,8 @@
     <PackageTags>.Net core, Dependency Injection,DI, Assembly loader</PackageTags>
     <PackageIcon>logo.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
+    <FileVersion>0.2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,6 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="images\logo.png" Pack="true" PackagePath="\"/>
+    <None Include="images\logo.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
