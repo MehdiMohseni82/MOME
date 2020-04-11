@@ -22,8 +22,8 @@ namespace MOME.DotNetDIExtensions
                 if (type.IsInterface)
                     continue;
 
-                var fooOfBarMethod = addTransientMethod.MakeGenericMethod(new[] { typeof(T), type });
-                fooOfBarMethod.Invoke(services, new[] { services });
+                var method = addTransientMethod.MakeGenericMethod(new[] { typeof(T), type });
+                method.Invoke(services, new[] { services });
             }
         }
 
