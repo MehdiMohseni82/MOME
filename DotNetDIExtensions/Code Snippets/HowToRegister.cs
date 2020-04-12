@@ -1,1 +1,1 @@
-services.RegisterAllAssignableType<ITaxCalculator><itaxcalculation>("MyApp.ExtendedLogics");
+services.RegisterAllAssignableType<ITaxCalculator>("MyApp.ExtendedLogics");
